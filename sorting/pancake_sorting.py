@@ -1,6 +1,6 @@
 class Solution:
-    def pancakeSort(self, arr: List[int]) -> List[int]:
-        n = len(arr)
+    def pancakeSort(self, A: List[int]) -> List[int]:
+        n = len(A)
         res = []
         for i in range(n):
 		    cur_max = max(A[0:n-i])
